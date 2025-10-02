@@ -150,28 +150,34 @@ header #texto h1 {
   margin: auto;
   max-width: 1575px;
 }
-#formulario1 {
-  text-align: left;
+#formulario1  #correo-texto {
+  color: #000000;
 }
-#formulario1 label {
-  vertical-align: top;
+#formulario1 .ptm {
+  display: flex;
 }
 #formulario1 input {
   height: 87px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-left: 25px;
 }
 #formulario1 #nombre {
-  width: 1180px;
+  width: 1100px;
+  margin-left: 80px;
 }
 #formulario1 #correo {
-  width: 959px;
+  width: 1100px;
 }
 #formulario1 #mensaje {
-  width: 1185px;
+  width: 1100px;
   height: 515px;
+  margin-left: 85px;
 }
-#formulario1 button {
+#formulario1 .boton {
+  display: flex;
+  margin-left: 265px;
+}
+.boton button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,6 +193,9 @@ header #texto h1 {
 button:hover {
   background-color: #ab36ff;
 }
+
+
+
 #formulario2 form {
   background: white;
   border: 50px solid #FFFA52;
@@ -195,30 +204,31 @@ button:hover {
   margin: auto;
   max-width: 1575px;
 }
-#formulario2 {
-  text-align: left;
-}
-#formulario2 label {
-  vertical-align: top;
-}
 #formulario2 input {
   height: 87px;
-  margin-bottom: 80px;
-  margin-left: 25px;
+  margin-bottom: 60px;
 }
 #formulario2 #nombre {
-  width: 1180px;
+  width: 1100px;
+  margin-left: 100px;
 }
 #formulario2 #correo {
-  width: 959px;
+  width: 1100px;
+  margin-left: 40px;
 }
 #formulario2 #edad {
-  width: 1248px;
+  width: 1100px;
+  margin-left: 165px;
 }
 #formulario2 #telefono {
-  width: 1185px;
+  width: 1100px;
+  margin-left: 100px;
 }
-#formulario2 button {
+#formulario2 .boton {
+  display: flex;
+  margin-left: 280px;
+}
+.boton button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,6 +244,13 @@ button:hover {
 button:hover {
   background-color: #ab36ff;
 }
+#formulario2 .ptm {
+  display: flex;
+}
+
+
+
+
 header .contenedor_banners img {
   width: 1920px;
   height: 834px;
@@ -249,7 +266,7 @@ main .contenedor {
   align-items: center;
 }
 #botones h1 {
-  color: blueviolet;
+  color: #C87BFF;
   margin-top: 112px;
   font-size: 80px;
 }
